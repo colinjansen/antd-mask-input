@@ -136,6 +136,7 @@ export const MaskedInput = React.forwardRef<InputRef, MaskedInputProps>(
 
     React.useEffect(() => {
       updateValue(propValue);
+      setValue(propValue);
     }, [propValue]);
 
     const eventHandlers = React.useMemo(() => {
