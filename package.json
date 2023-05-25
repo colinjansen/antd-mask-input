@@ -1,5 +1,5 @@
 {
-  "name": "antd-mask-input",
+  "name": "@replicat/antd-mask-input",
   "version": "2.0.7",
   "description": "Ant Design Mask Input",
   "main": "build/main/index.js",
